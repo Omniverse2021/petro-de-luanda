@@ -1,0 +1,60 @@
+body{
+    position: relative;
+
+
+}
+
+.container{
+    display:flex;
+    justify-content: space-between ;
+    background-color: saddlebrown;
+    width: 50px;
+}
+
+.campo_de_navegacao{
+    padding: 15px;
+    width: 250px;
+    height:100%;
+    display: grid ;
+    background-color:yellow;
+    
+}
+
+.navegacao_buttons{
+    
+    display:grid;
+    padding: 15px;
+    
+}
+
+.inicio, .actualidade, .clube, .contacto, .informacao, .sobre{
+    background-color: navy;
+    display: space-around;
+    color:yellow;
+    border-radius:20px 0px 20px 0px;
+
+}
+.omniverse{
+    justify-content:initial;
+    bottom: 20px;
+    left: 29px;
+}
+   
+.nav{
+   background-color: yellow ;
+   height:59%;
+   display: inline;
+
+}
+
+.proximo_novidade{
+padding: 15px;
+    width: 250px;
+    height:100%;
+    display: grid ;
+    background-color:yellow;}
+
+    .imagem_1,.imagem2 {
+        height: 30px;
+        display: grid;
+    }
